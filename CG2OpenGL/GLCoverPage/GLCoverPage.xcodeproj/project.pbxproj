@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE35AC9D150BF8E1002FF234 /* 04b_engine_error128.png in Resources */ = {isa = PBXBuildFile; fileRef = CE35AC9C150BF8E1002FF234 /* 04b_engine_error128.png */; };
+		CE35ACA0150BFC75002FF234 /* rick.png in Resources */ = {isa = PBXBuildFile; fileRef = CE35AC9F150BFC75002FF234 /* rick.png */; };
+		CE9BE64314D097DC00E5E011 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9BE64214D097DC00E5E011 /* UIKit.framework */; };
+		CE9BE64514D097DC00E5E011 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9BE64414D097DC00E5E011 /* Foundation.framework */; };
+		CE9BE64714D097DC00E5E011 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9BE64614D097DC00E5E011 /* CoreGraphics.framework */; };
+		CE9BE64914D097DC00E5E011 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9BE64814D097DC00E5E011 /* GLKit.framework */; };
+		CE9BE64B14D097DC00E5E011 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9BE64A14D097DC00E5E011 /* OpenGLES.framework */; };
+		CE9BE65114D097DC00E5E011 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE9BE64F14D097DC00E5E011 /* InfoPlist.strings */; };
+		CE9BE65314D097DC00E5E011 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9BE65214D097DC00E5E011 /* main.m */; };
+		CE9BE65714D097DC00E5E011 /* BNRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9BE65614D097DC00E5E011 /* BNRAppDelegate.m */; };
+		CE9BE65914D097DC00E5E011 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = CE9BE65814D097DC00E5E011 /* Shader.fsh */; };
+		CE9BE65B14D097DC00E5E011 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = CE9BE65A14D097DC00E5E011 /* Shader.vsh */; };
+		CE9BE65E14D097DC00E5E011 /* GLCoverPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9BE65D14D097DC00E5E011 /* GLCoverPageViewController.m */; };
+		CE9BE66114D097DC00E5E011 /* GLCoverPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9BE65F14D097DC00E5E011 /* GLCoverPageViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE35AC9C150BF8E1002FF234 /* 04b_engine_error128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04b_engine_error128.png; sourceTree = "<group>"; };
+		CE35AC9F150BFC75002FF234 /* rick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rick.png; sourceTree = "<group>"; };
+		CE9BE63E14D097DC00E5E011 /* GLCoverPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLCoverPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9BE64214D097DC00E5E011 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE9BE64414D097DC00E5E011 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE9BE64614D097DC00E5E011 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE9BE64814D097DC00E5E011 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		CE9BE64A14D097DC00E5E011 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CE9BE64E14D097DC00E5E011 /* GLCoverPage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GLCoverPage-Info.plist"; sourceTree = "<group>"; };
+		CE9BE65014D097DC00E5E011 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE9BE65214D097DC00E5E011 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE9BE65414D097DC00E5E011 /* GLCoverPage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLCoverPage-Prefix.pch"; sourceTree = "<group>"; };
+		CE9BE65514D097DC00E5E011 /* BNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAppDelegate.h; sourceTree = "<group>"; };
+		CE9BE65614D097DC00E5E011 /* BNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppDelegate.m; sourceTree = "<group>"; };
+		CE9BE65814D097DC00E5E011 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		CE9BE65A14D097DC00E5E011 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		CE9BE65C14D097DC00E5E011 /* GLCoverPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLCoverPageViewController.h; sourceTree = "<group>"; };
+		CE9BE65D14D097DC00E5E011 /* GLCoverPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLCoverPageViewController.m; sourceTree = "<group>"; };
+		CE9BE66014D097DC00E5E011 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GLCoverPageViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE9BE63B14D097DC00E5E011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9BE64314D097DC00E5E011 /* UIKit.framework in Frameworks */,
+				CE9BE64514D097DC00E5E011 /* Foundation.framework in Frameworks */,
+				CE9BE64714D097DC00E5E011 /* CoreGraphics.framework in Frameworks */,
+				CE9BE64914D097DC00E5E011 /* GLKit.framework in Frameworks */,
+				CE9BE64B14D097DC00E5E011 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE9BE63314D097DC00E5E011 = {
+			isa = PBXGroup;
+			children = (
+				CE9BE64C14D097DC00E5E011 /* GLCoverPage */,
+				CE9BE64114D097DC00E5E011 /* Frameworks */,
+				CE9BE63F14D097DC00E5E011 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE9BE63F14D097DC00E5E011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE9BE63E14D097DC00E5E011 /* GLCoverPage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE9BE64114D097DC00E5E011 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE9BE64214D097DC00E5E011 /* UIKit.framework */,
+				CE9BE64414D097DC00E5E011 /* Foundation.framework */,
+				CE9BE64614D097DC00E5E011 /* CoreGraphics.framework */,
+				CE9BE64814D097DC00E5E011 /* GLKit.framework */,
+				CE9BE64A14D097DC00E5E011 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE9BE64C14D097DC00E5E011 /* GLCoverPage */ = {
+			isa = PBXGroup;
+			children = (
+				CE9BE65514D097DC00E5E011 /* BNRAppDelegate.h */,
+				CE9BE65614D097DC00E5E011 /* BNRAppDelegate.m */,
+				CE9BE65814D097DC00E5E011 /* Shader.fsh */,
+				CE9BE65A14D097DC00E5E011 /* Shader.vsh */,
+				CE9BE65C14D097DC00E5E011 /* GLCoverPageViewController.h */,
+				CE9BE65D14D097DC00E5E011 /* GLCoverPageViewController.m */,
+				CE9BE65F14D097DC00E5E011 /* GLCoverPageViewController.xib */,
+				CE35AC9C150BF8E1002FF234 /* 04b_engine_error128.png */,
+				CE35AC9F150BFC75002FF234 /* rick.png */,
+				CE9BE64D14D097DC00E5E011 /* Supporting Files */,
+			);
+			path = GLCoverPage;
+			sourceTree = "<group>";
+		};
+		CE9BE64D14D097DC00E5E011 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE9BE64E14D097DC00E5E011 /* GLCoverPage-Info.plist */,
+				CE9BE64F14D097DC00E5E011 /* InfoPlist.strings */,
+				CE9BE65214D097DC00E5E011 /* main.m */,
+				CE9BE65414D097DC00E5E011 /* GLCoverPage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE9BE63D14D097DC00E5E011 /* GLCoverPage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9BE66414D097DC00E5E011 /* Build configuration list for PBXNativeTarget "GLCoverPage" */;
+			buildPhases = (
+				CE9BE63A14D097DC00E5E011 /* Sources */,
+				CE9BE63B14D097DC00E5E011 /* Frameworks */,
+				CE9BE63C14D097DC00E5E011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLCoverPage;
+			productName = GLCoverPage;
+			productReference = CE9BE63E14D097DC00E5E011 /* GLCoverPage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE9BE63514D097DC00E5E011 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CE9BE63814D097DC00E5E011 /* Build configuration list for PBXProject "GLCoverPage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE9BE63314D097DC00E5E011;
+			productRefGroup = CE9BE63F14D097DC00E5E011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE9BE63D14D097DC00E5E011 /* GLCoverPage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE9BE63C14D097DC00E5E011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9BE65114D097DC00E5E011 /* InfoPlist.strings in Resources */,
+				CE9BE65914D097DC00E5E011 /* Shader.fsh in Resources */,
+				CE9BE65B14D097DC00E5E011 /* Shader.vsh in Resources */,
+				CE9BE66114D097DC00E5E011 /* GLCoverPageViewController.xib in Resources */,
+				CE35AC9D150BF8E1002FF234 /* 04b_engine_error128.png in Resources */,
+				CE35ACA0150BFC75002FF234 /* rick.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE9BE63A14D097DC00E5E011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9BE65314D097DC00E5E011 /* main.m in Sources */,
+				CE9BE65714D097DC00E5E011 /* BNRAppDelegate.m in Sources */,
+				CE9BE65E14D097DC00E5E011 /* GLCoverPageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE9BE64F14D097DC00E5E011 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9BE65014D097DC00E5E011 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE9BE65F14D097DC00E5E011 /* GLCoverPageViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9BE66014D097DC00E5E011 /* en */,
+			);
+			name = GLCoverPageViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE9BE66214D097DC00E5E011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CE9BE66314D097DC00E5E011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE9BE66514D097DC00E5E011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLCoverPage/GLCoverPage-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "GLCoverPage/GLCoverPage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE9BE66614D097DC00E5E011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GLCoverPage/GLCoverPage-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "GLCoverPage/GLCoverPage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE9BE63814D097DC00E5E011 /* Build configuration list for PBXProject "GLCoverPage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9BE66214D097DC00E5E011 /* Debug */,
+				CE9BE66314D097DC00E5E011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9BE66414D097DC00E5E011 /* Build configuration list for PBXNativeTarget "GLCoverPage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9BE66514D097DC00E5E011 /* Debug */,
+				CE9BE66614D097DC00E5E011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE9BE63514D097DC00E5E011 /* Project object */;
+}

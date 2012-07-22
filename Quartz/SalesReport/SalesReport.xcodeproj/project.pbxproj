@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93876D7E14B5FFA600BB5500 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93876D7D14B5FFA600BB5500 /* UIKit.framework */; };
+		93876D8014B5FFA600BB5500 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93876D7F14B5FFA600BB5500 /* Foundation.framework */; };
+		93876D8214B5FFA600BB5500 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93876D8114B5FFA600BB5500 /* CoreGraphics.framework */; };
+		93876D8814B5FFA600BB5500 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93876D8614B5FFA600BB5500 /* InfoPlist.strings */; };
+		93876D8A14B5FFA600BB5500 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93876D8914B5FFA600BB5500 /* main.m */; };
+		93876D8E14B5FFA600BB5500 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93876D8D14B5FFA600BB5500 /* AppDelegate.m */; };
+		93876D9114B5FFA600BB5500 /* ReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93876D9014B5FFA600BB5500 /* ReportViewController.m */; };
+		93876D9414B5FFA600BB5500 /* ReportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93876D9214B5FFA600BB5500 /* ReportViewController.xib */; };
+		93876DA114B602B300BB5500 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93876D9E14B602B300BB5500 /* CoreText.framework */; };
+		93876DA214B602B300BB5500 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93876D9F14B602B300BB5500 /* MessageUI.framework */; };
+		93876DA314B602B300BB5500 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93876DA014B602B300BB5500 /* QuartzCore.framework */; };
+		93876DAB14B60B8200BB5500 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 93876DAA14B60B8200BB5500 /* Person.m */; };
+		93876DAF14B625B300BB5500 /* ReportRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93876DAE14B625B300BB5500 /* ReportRenderer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93876D7914B5FFA600BB5500 /* SalesReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalesReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93876D7D14B5FFA600BB5500 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93876D7F14B5FFA600BB5500 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93876D8114B5FFA600BB5500 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93876D8514B5FFA600BB5500 /* SalesReport-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SalesReport-Info.plist"; sourceTree = "<group>"; };
+		93876D8714B5FFA600BB5500 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93876D8914B5FFA600BB5500 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93876D8B14B5FFA600BB5500 /* SalesReport-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SalesReport-Prefix.pch"; sourceTree = "<group>"; };
+		93876D8C14B5FFA600BB5500 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		93876D8D14B5FFA600BB5500 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93876D8F14B5FFA600BB5500 /* ReportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportViewController.h; sourceTree = "<group>"; };
+		93876D9014B5FFA600BB5500 /* ReportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportViewController.m; sourceTree = "<group>"; };
+		93876D9314B5FFA600BB5500 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ReportViewController.xib; sourceTree = "<group>"; };
+		93876D9E14B602B300BB5500 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		93876D9F14B602B300BB5500 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		93876DA014B602B300BB5500 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		93876DA914B60B8200BB5500 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		93876DAA14B60B8200BB5500 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		93876DAD14B625B300BB5500 /* ReportRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportRenderer.h; sourceTree = "<group>"; };
+		93876DAE14B625B300BB5500 /* ReportRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportRenderer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93876D7614B5FFA600BB5500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93876DA114B602B300BB5500 /* CoreText.framework in Frameworks */,
+				93876DA214B602B300BB5500 /* MessageUI.framework in Frameworks */,
+				93876DA314B602B300BB5500 /* QuartzCore.framework in Frameworks */,
+				93876D7E14B5FFA600BB5500 /* UIKit.framework in Frameworks */,
+				93876D8014B5FFA600BB5500 /* Foundation.framework in Frameworks */,
+				93876D8214B5FFA600BB5500 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93876D6E14B5FFA600BB5500 = {
+			isa = PBXGroup;
+			children = (
+				93876D8314B5FFA600BB5500 /* SalesReport */,
+				93876D7C14B5FFA600BB5500 /* Frameworks */,
+				93876D7A14B5FFA600BB5500 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93876D7A14B5FFA600BB5500 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93876D7914B5FFA600BB5500 /* SalesReport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93876D7C14B5FFA600BB5500 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93876D9E14B602B300BB5500 /* CoreText.framework */,
+				93876D9F14B602B300BB5500 /* MessageUI.framework */,
+				93876DA014B602B300BB5500 /* QuartzCore.framework */,
+				93876D7D14B5FFA600BB5500 /* UIKit.framework */,
+				93876D7F14B5FFA600BB5500 /* Foundation.framework */,
+				93876D8114B5FFA600BB5500 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93876D8314B5FFA600BB5500 /* SalesReport */ = {
+			isa = PBXGroup;
+			children = (
+				93876D8C14B5FFA600BB5500 /* AppDelegate.h */,
+				93876D8D14B5FFA600BB5500 /* AppDelegate.m */,
+				93876DA914B60B8200BB5500 /* Person.h */,
+				93876DAA14B60B8200BB5500 /* Person.m */,
+				93876DAD14B625B300BB5500 /* ReportRenderer.h */,
+				93876DAE14B625B300BB5500 /* ReportRenderer.m */,
+				93876D8F14B5FFA600BB5500 /* ReportViewController.h */,
+				93876D9014B5FFA600BB5500 /* ReportViewController.m */,
+				93876D9214B5FFA600BB5500 /* ReportViewController.xib */,
+				93876D8414B5FFA600BB5500 /* Supporting Files */,
+			);
+			path = SalesReport;
+			sourceTree = "<group>";
+		};
+		93876D8414B5FFA600BB5500 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93876D8514B5FFA600BB5500 /* SalesReport-Info.plist */,
+				93876D8614B5FFA600BB5500 /* InfoPlist.strings */,
+				93876D8914B5FFA600BB5500 /* main.m */,
+				93876D8B14B5FFA600BB5500 /* SalesReport-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93876D7814B5FFA600BB5500 /* SalesReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93876D9714B5FFA600BB5500 /* Build configuration list for PBXNativeTarget "SalesReport" */;
+			buildPhases = (
+				93876D7514B5FFA600BB5500 /* Sources */,
+				93876D7614B5FFA600BB5500 /* Frameworks */,
+				93876D7714B5FFA600BB5500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SalesReport;
+			productName = SalesReport;
+			productReference = 93876D7914B5FFA600BB5500 /* SalesReport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93876D7014B5FFA600BB5500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+			};
+			buildConfigurationList = 93876D7314B5FFA600BB5500 /* Build configuration list for PBXProject "SalesReport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93876D6E14B5FFA600BB5500;
+			productRefGroup = 93876D7A14B5FFA600BB5500 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93876D7814B5FFA600BB5500 /* SalesReport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93876D7714B5FFA600BB5500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93876D8814B5FFA600BB5500 /* InfoPlist.strings in Resources */,
+				93876D9414B5FFA600BB5500 /* ReportViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93876D7514B5FFA600BB5500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93876D8A14B5FFA600BB5500 /* main.m in Sources */,
+				93876D8E14B5FFA600BB5500 /* AppDelegate.m in Sources */,
+				93876D9114B5FFA600BB5500 /* ReportViewController.m in Sources */,
+				93876DAB14B60B8200BB5500 /* Person.m in Sources */,
+				93876DAF14B625B300BB5500 /* ReportRenderer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93876D8614B5FFA600BB5500 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93876D8714B5FFA600BB5500 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93876D9214B5FFA600BB5500 /* ReportViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93876D9314B5FFA600BB5500 /* en */,
+			);
+			name = ReportViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93876D9514B5FFA600BB5500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		93876D9614B5FFA600BB5500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93876D9814B5FFA600BB5500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SalesReport/SalesReport-Prefix.pch";
+				INFOPLIST_FILE = "SalesReport/SalesReport-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93876D9914B5FFA600BB5500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SalesReport/SalesReport-Prefix.pch";
+				INFOPLIST_FILE = "SalesReport/SalesReport-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93876D7314B5FFA600BB5500 /* Build configuration list for PBXProject "SalesReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93876D9514B5FFA600BB5500 /* Debug */,
+				93876D9614B5FFA600BB5500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93876D9714B5FFA600BB5500 /* Build configuration list for PBXNativeTarget "SalesReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93876D9814B5FFA600BB5500 /* Debug */,
+				93876D9914B5FFA600BB5500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93876D7014B5FFA600BB5500 /* Project object */;
+}

@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B157EA4215484ECE00E9ABD3 /* BNRDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B157EA4115484ECE00E9ABD3 /* BNRDocument.m */; };
+		B17F790A15485E2000750AD0 /* BNRDocumentStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = B17F790915485E2000750AD0 /* BNRDocumentStorage.m */; };
+		B1FA3DF314CFD281008BA8A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FA3DF214CFD281008BA8A6 /* UIKit.framework */; };
+		B1FA3DF514CFD281008BA8A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FA3DF414CFD281008BA8A6 /* Foundation.framework */; };
+		B1FA3DF714CFD281008BA8A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1FA3DF614CFD281008BA8A6 /* CoreGraphics.framework */; };
+		B1FA3DFD14CFD281008BA8A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1FA3DFB14CFD281008BA8A6 /* InfoPlist.strings */; };
+		B1FA3DFF14CFD281008BA8A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FA3DFE14CFD281008BA8A6 /* main.m */; };
+		B1FA3E0314CFD281008BA8A6 /* BNRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FA3E0214CFD281008BA8A6 /* BNRAppDelegate.m */; };
+		B1FA3E0614CFD281008BA8A6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1FA3E0414CFD281008BA8A6 /* MainStoryboard.storyboard */; };
+		B1FA3E1714CFE13D008BA8A6 /* BNRSingleDocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FA3E1614CFE13D008BA8A6 /* BNRSingleDocumentViewController.m */; };
+		B1FA3E1D14D072C6008BA8A6 /* BNRDocumentListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FA3E1C14D072C6008BA8A6 /* BNRDocumentListTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B157EA4015484ECE00E9ABD3 /* BNRDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDocument.h; sourceTree = "<group>"; };
+		B157EA4115484ECE00E9ABD3 /* BNRDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDocument.m; sourceTree = "<group>"; };
+		B17F790815485E2000750AD0 /* BNRDocumentStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDocumentStorage.h; sourceTree = "<group>"; };
+		B17F790915485E2000750AD0 /* BNRDocumentStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDocumentStorage.m; sourceTree = "<group>"; };
+		B1FA3DEE14CFD281008BA8A6 /* Notery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1FA3DF214CFD281008BA8A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1FA3DF414CFD281008BA8A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1FA3DF614CFD281008BA8A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1FA3DFA14CFD281008BA8A6 /* Notery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Notery-Info.plist"; sourceTree = "<group>"; };
+		B1FA3DFC14CFD281008BA8A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1FA3DFE14CFD281008BA8A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1FA3E0014CFD281008BA8A6 /* Notery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Notery-Prefix.pch"; sourceTree = "<group>"; };
+		B1FA3E0114CFD281008BA8A6 /* BNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAppDelegate.h; sourceTree = "<group>"; };
+		B1FA3E0214CFD281008BA8A6 /* BNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppDelegate.m; sourceTree = "<group>"; };
+		B1FA3E0514CFD281008BA8A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B1FA3E1514CFE13C008BA8A6 /* BNRSingleDocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRSingleDocumentViewController.h; sourceTree = "<group>"; };
+		B1FA3E1614CFE13D008BA8A6 /* BNRSingleDocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRSingleDocumentViewController.m; sourceTree = "<group>"; };
+		B1FA3E1B14D072C6008BA8A6 /* BNRDocumentListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDocumentListTableViewController.h; sourceTree = "<group>"; };
+		B1FA3E1C14D072C6008BA8A6 /* BNRDocumentListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDocumentListTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1FA3DEB14CFD281008BA8A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FA3DF314CFD281008BA8A6 /* UIKit.framework in Frameworks */,
+				B1FA3DF514CFD281008BA8A6 /* Foundation.framework in Frameworks */,
+				B1FA3DF714CFD281008BA8A6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1FA3DE314CFD281008BA8A6 = {
+			isa = PBXGroup;
+			children = (
+				B1FA3DF814CFD281008BA8A6 /* Notery */,
+				B1FA3DF114CFD281008BA8A6 /* Frameworks */,
+				B1FA3DEF14CFD281008BA8A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1FA3DEF14CFD281008BA8A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1FA3DEE14CFD281008BA8A6 /* Notery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1FA3DF114CFD281008BA8A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1FA3DF214CFD281008BA8A6 /* UIKit.framework */,
+				B1FA3DF414CFD281008BA8A6 /* Foundation.framework */,
+				B1FA3DF614CFD281008BA8A6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1FA3DF814CFD281008BA8A6 /* Notery */ = {
+			isa = PBXGroup;
+			children = (
+				B1FA3E0114CFD281008BA8A6 /* BNRAppDelegate.h */,
+				B1FA3E0214CFD281008BA8A6 /* BNRAppDelegate.m */,
+				B1FA3E1B14D072C6008BA8A6 /* BNRDocumentListTableViewController.h */,
+				B1FA3E1C14D072C6008BA8A6 /* BNRDocumentListTableViewController.m */,
+				B1FA3E1514CFE13C008BA8A6 /* BNRSingleDocumentViewController.h */,
+				B1FA3E1614CFE13D008BA8A6 /* BNRSingleDocumentViewController.m */,
+				B1FA3E0414CFD281008BA8A6 /* MainStoryboard.storyboard */,
+				B157EA4015484ECE00E9ABD3 /* BNRDocument.h */,
+				B157EA4115484ECE00E9ABD3 /* BNRDocument.m */,
+				B17F790815485E2000750AD0 /* BNRDocumentStorage.h */,
+				B17F790915485E2000750AD0 /* BNRDocumentStorage.m */,
+				B1FA3DF914CFD281008BA8A6 /* Supporting Files */,
+			);
+			path = Notery;
+			sourceTree = "<group>";
+		};
+		B1FA3DF914CFD281008BA8A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1FA3DFA14CFD281008BA8A6 /* Notery-Info.plist */,
+				B1FA3DFB14CFD281008BA8A6 /* InfoPlist.strings */,
+				B1FA3DFE14CFD281008BA8A6 /* main.m */,
+				B1FA3E0014CFD281008BA8A6 /* Notery-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1FA3DED14CFD281008BA8A6 /* Notery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1FA3E0F14CFD281008BA8A6 /* Build configuration list for PBXNativeTarget "Notery" */;
+			buildPhases = (
+				B1FA3DEA14CFD281008BA8A6 /* Sources */,
+				B1FA3DEB14CFD281008BA8A6 /* Frameworks */,
+				B1FA3DEC14CFD281008BA8A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notery;
+			productName = Notery;
+			productReference = B1FA3DEE14CFD281008BA8A6 /* Notery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1FA3DE514CFD281008BA8A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B1FA3DE814CFD281008BA8A6 /* Build configuration list for PBXProject "Notery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B1FA3DE314CFD281008BA8A6;
+			productRefGroup = B1FA3DEF14CFD281008BA8A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1FA3DED14CFD281008BA8A6 /* Notery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1FA3DEC14CFD281008BA8A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FA3DFD14CFD281008BA8A6 /* InfoPlist.strings in Resources */,
+				B1FA3E0614CFD281008BA8A6 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1FA3DEA14CFD281008BA8A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FA3DFF14CFD281008BA8A6 /* main.m in Sources */,
+				B1FA3E0314CFD281008BA8A6 /* BNRAppDelegate.m in Sources */,
+				B1FA3E1714CFE13D008BA8A6 /* BNRSingleDocumentViewController.m in Sources */,
+				B1FA3E1D14D072C6008BA8A6 /* BNRDocumentListTableViewController.m in Sources */,
+				B157EA4215484ECE00E9ABD3 /* BNRDocument.m in Sources */,
+				B17F790A15485E2000750AD0 /* BNRDocumentStorage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1FA3DFB14CFD281008BA8A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1FA3DFC14CFD281008BA8A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B1FA3E0414CFD281008BA8A6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1FA3E0514CFD281008BA8A6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1FA3E0D14CFD281008BA8A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B1FA3E0E14CFD281008BA8A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1FA3E1014CFD281008BA8A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Notery/Notery-Prefix.pch";
+				INFOPLIST_FILE = "Notery/Notery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1FA3E1114CFD281008BA8A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Notery/Notery-Prefix.pch";
+				INFOPLIST_FILE = "Notery/Notery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1FA3DE814CFD281008BA8A6 /* Build configuration list for PBXProject "Notery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FA3E0D14CFD281008BA8A6 /* Debug */,
+				B1FA3E0E14CFD281008BA8A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1FA3E0F14CFD281008BA8A6 /* Build configuration list for PBXNativeTarget "Notery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1FA3E1014CFD281008BA8A6 /* Debug */,
+				B1FA3E1114CFD281008BA8A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1FA3DE514CFD281008BA8A6 /* Project object */;
+}

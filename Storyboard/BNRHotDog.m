@@ -10,9 +10,6 @@
 
 @implementation BNRHotDog
 
-@synthesize kind = _kind;
-@synthesize condiments = _condiments;
-
 - (id)init
 {
     self = [super init];

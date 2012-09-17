@@ -21,9 +21,6 @@ static BNROrder *_mainInstance;
 
 @implementation BNROrder
 
-@synthesize dogs = _dogs;
-@synthesize numDrinks = _numDrinks;
-
 - (void)addDog:(BNRHotDog *)dog
 {
     if (self.dogs == nil) {

@@ -166,7 +166,6 @@ void shrinkOrExpandRectToFitHorizontallyInRect(CGRect *fitThisRect, const CGRect
     }
     if(IsEmpty(tile))
     {
-        
         tile = [[BigViewPageView alloc] initWithFrame:CGRectZero];
         // set the tile's frame so we insert it at the correct position
         CGSize tilesize = [self tileSizeForRect:[contentView frame]];

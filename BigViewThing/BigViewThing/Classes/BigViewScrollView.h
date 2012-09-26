@@ -10,7 +10,7 @@
 #import "AAPLTapDetectingView.h"
 #import "BigViewPageView.h"
 
-//Based not-so-loosely on AAPL's TilesScrollView Example
+//Based not-so-loosely on AAPL's TiledScrollView Example
 @interface BigViewScrollView : UIScrollView <UIScrollViewDelegate, 
 AAPLTapDetectingViewDelegate> {
     AAPLTapDetectingView             *contentView;

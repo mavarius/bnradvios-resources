@@ -93,9 +93,9 @@
 				CA2E33FD14D2537A00EE177D /* BNRAppDelegate.h */,
 				CA2E33FE14D2537A00EE177D /* BNRAppDelegate.m */,
 				CA2E340014D2537A00EE177D /* MainStoryboard_iPhone.storyboard */,
+				CA2E340314D2537A00EE177D /* MainStoryboard_iPad.storyboard */,
 				CA32841614D2587C00E95CDE /* BNRCustomSegue.h */,
 				CA32841714D2587C00E95CDE /* BNRCustomSegue.m */,
-				CA2E340314D2537A00EE177D /* MainStoryboard_iPad.storyboard */,
 				CA2E340614D2537A00EE177D /* BNRViewController.h */,
 				CA2E340714D2537A00EE177D /* BNRViewController.m */,
 				CA32841114D257BF00E95CDE /* Humanoid.png */,
@@ -272,6 +272,7 @@
 				GCC_PREFIX_HEADER = "CustomSegue/CustomSegue-Prefix.pch";
 				INFOPLIST_FILE = "CustomSegue/CustomSegue-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -283,6 +284,7 @@
 				GCC_PREFIX_HEADER = "CustomSegue/CustomSegue-Prefix.pch";
 				INFOPLIST_FILE = "CustomSegue/CustomSegue-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -18,7 +18,6 @@
 		CA2E340814D2537A00EE177D /* BNRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2E340714D2537A00EE177D /* BNRViewController.m */; };
 		CA32841314D257BF00E95CDE /* Humanoid.png in Resources */ = {isa = PBXBuildFile; fileRef = CA32841114D257BF00E95CDE /* Humanoid.png */; };
 		CA32841414D257BF00E95CDE /* Smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = CA32841214D257BF00E95CDE /* Smiley.png */; };
-		CA32841814D2587C00E95CDE /* BNRCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = CA32841714D2587C00E95CDE /* BNRCustomSegue.m */; };
 		CA32841A14D2595D00E95CDE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA32841914D2595D00E95CDE /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,8 +38,6 @@
 		CA2E340714D2537A00EE177D /* BNRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRViewController.m; sourceTree = "<group>"; };
 		CA32841114D257BF00E95CDE /* Humanoid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Humanoid.png; sourceTree = "<group>"; };
 		CA32841214D257BF00E95CDE /* Smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Smiley.png; sourceTree = "<group>"; };
-		CA32841614D2587C00E95CDE /* BNRCustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRCustomSegue.h; sourceTree = "<group>"; };
-		CA32841714D2587C00E95CDE /* BNRCustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRCustomSegue.m; sourceTree = "<group>"; };
 		CA32841914D2595D00E95CDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -62,7 +59,6 @@
 		CA2E33DF14D2537900EE177D = {
 			isa = PBXGroup;
 			children = (
-				CA32841914D2595D00E95CDE /* QuartzCore.framework */,
 				CA2E33F414D2537A00EE177D /* CustomSegue */,
 				CA2E33ED14D2537900EE177D /* Frameworks */,
 				CA2E33EB14D2537900EE177D /* Products */,
@@ -80,6 +76,7 @@
 		CA2E33ED14D2537900EE177D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CA32841914D2595D00E95CDE /* QuartzCore.framework */,
 				CA2E33EE14D2537A00EE177D /* UIKit.framework */,
 				CA2E33F014D2537A00EE177D /* Foundation.framework */,
 				CA2E33F214D2537A00EE177D /* CoreGraphics.framework */,
@@ -94,8 +91,6 @@
 				CA2E33FE14D2537A00EE177D /* BNRAppDelegate.m */,
 				CA2E340014D2537A00EE177D /* MainStoryboard_iPhone.storyboard */,
 				CA2E340314D2537A00EE177D /* MainStoryboard_iPad.storyboard */,
-				CA32841614D2587C00E95CDE /* BNRCustomSegue.h */,
-				CA32841714D2587C00E95CDE /* BNRCustomSegue.m */,
 				CA2E340614D2537A00EE177D /* BNRViewController.h */,
 				CA2E340714D2537A00EE177D /* BNRViewController.m */,
 				CA32841114D257BF00E95CDE /* Humanoid.png */,
@@ -184,7 +179,6 @@
 				CA2E33FB14D2537A00EE177D /* main.m in Sources */,
 				CA2E33FF14D2537A00EE177D /* BNRAppDelegate.m in Sources */,
 				CA2E340814D2537A00EE177D /* BNRViewController.m in Sources */,
-				CA32841814D2587C00E95CDE /* BNRCustomSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

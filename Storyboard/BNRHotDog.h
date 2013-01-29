@@ -9,13 +9,13 @@
 #import <UIKit/UIKit.h>
 
 typedef enum {
-    BNRDOG_REGULAR,
-    BNRDOG_JUMBO
-} BNRHotDogVariety;
+    BNRHotDogKindRegular,
+    BNRHotDogKindJumbo
+} BNRHotDogKind;
 
 @interface BNRHotDog : NSObject
 
-@property (nonatomic) BNRHotDogVariety kind;
+@property (nonatomic) BNRHotDogKind kind;
 @property (nonatomic, strong) NSMutableArray *condiments;
 
 - (float)price;

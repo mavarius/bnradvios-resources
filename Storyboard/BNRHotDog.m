@@ -21,8 +21,8 @@
 
 - (float)price
 {
-    if (self.kind==BNRDOG_REGULAR) return 1.0;
-    if (self.kind==BNRDOG_JUMBO) return 1.50;
+    if (self.kind==BNRHotDogKindRegular) return 1.0;
+    if (self.kind==BNRHotDogKindJumbo) return 1.50;
     
     return 0.0;
 }
@@ -30,8 +30,8 @@
 - (NSString *)descriptionForOrder
 {
     NSString *desc;
-    if (self.kind==BNRDOG_REGULAR) desc = @"Hot Dog";
-    if (self.kind==BNRDOG_JUMBO) desc = @"Jumbo Dog";
+    if (self.kind==BNRHotDogKindRegular) desc = @"Hot Dog";
+    if (self.kind==BNRHotDogKindJumbo) desc = @"Jumbo Dog";
     
     if ([self.condiments count] > 0) {
         NSString *nextDesc = [desc stringByAppendingString:@" with "];

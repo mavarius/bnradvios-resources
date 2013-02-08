@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 
 typedef enum {
-    BNRDOG_REGULAR,
-    BNRDOG_JUMBO
+    BNRHotDogKindRegular,
+    BNRHotDogKindJumbo
 } BNRHotDogVariety;
 
 @interface BNRHotDog : NSObject

@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface BNRViewController : UIViewController
+
 @property (strong, nonatomic) IBOutlet UIButton *segueButton;
 
 @end

@@ -11,11 +11,11 @@
 typedef enum {
     BNRHotDogKindRegular,
     BNRHotDogKindJumbo
-} BNRHotDogVariety;
+} BNRHotDogKind;
 
 @interface BNRHotDog : NSObject
 
-@property (nonatomic) BNRHotDogVariety kind;
+@property (nonatomic) BNRHotDogKind kind;
 @property (nonatomic, strong) NSMutableArray *condiments;
 
 - (float)price;

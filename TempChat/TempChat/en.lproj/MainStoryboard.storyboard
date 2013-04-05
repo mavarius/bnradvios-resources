@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C3103" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -12,16 +12,17 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fro-pG-cHL">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="127.0.0.1" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fro-pG-cHL">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="43" id="zC7-lR-4pI"/>
+                                    <constraint firstAttribute="height" constant="43" id="8Tm-ev-4Ls"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ws9-1c-Js2">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="84" id="ZQB-EK-ipM"/>
+                                    <constraint firstAttribute="width" constant="84" id="ePz-Ym-Evv"/>
+                                    <constraint firstAttribute="height" constant="42" id="gyE-AQ-fwf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Connect">
@@ -35,40 +36,41 @@
                                     <action selector="connect:" destination="2" eventType="touchUpInside" id="XVQ-Xs-Yaz"/>
                                 </connections>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="YHE-xw-d18">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="0Np-XV-UYh">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="3AG-sJ-5uc"/>
+                                    <constraint firstAttribute="width" constant="276" id="hRf-tb-yrP"/>
+                                </constraints>
+                            </slider>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="ujK-vQ-iqr">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="2" id="VoI-KU-Bml"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="YHE-xw-d18" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="BeB-V7-ul9"/>
-                            <constraint firstItem="fro-pG-cHL" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="LHe-5K-lpe"/>
-                            <constraint firstAttribute="trailing" secondItem="YHE-xw-d18" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="LLF-fL-eBX"/>
-                            <constraint firstItem="YHE-xw-d18" firstAttribute="top" secondItem="fro-pG-cHL" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="NoI-HQ-lYk"/>
-                            <constraint firstAttribute="trailing" secondItem="ws9-1c-Js2" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="QQ9-wA-sjN"/>
-                            <constraint firstItem="fro-pG-cHL" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="Vlx-0f-A98"/>
-                            <constraint firstItem="ws9-1c-Js2" firstAttribute="top" secondItem="3" secondAttribute="top" constant="21" id="i0W-29-fjQ"/>
-                            <constraint firstItem="ws9-1c-Js2" firstAttribute="leading" secondItem="fro-pG-cHL" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="j6M-0u-qlW"/>
-                            <constraint firstAttribute="bottom" secondItem="YHE-xw-d18" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="vPn-66-LcR"/>
+                            <constraint firstAttribute="trailing" secondItem="ujK-vQ-iqr" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="APd-hR-cBW"/>
+                            <constraint firstItem="fro-pG-cHL" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="IHq-7k-bUu"/>
+                            <constraint firstAttribute="bottom" secondItem="ujK-vQ-iqr" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="K0f-Cz-3hP"/>
+                            <constraint firstItem="ujK-vQ-iqr" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="KMa-Hp-Zx2"/>
+                            <constraint firstItem="ws9-1c-Js2" firstAttribute="leading" secondItem="fro-pG-cHL" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="Uzc-vi-G64"/>
+                            <constraint firstItem="0Np-XV-UYh" firstAttribute="top" secondItem="fro-pG-cHL" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="Xfk-FF-nHO"/>
+                            <constraint firstItem="ujK-vQ-iqr" firstAttribute="centerX" secondItem="0Np-XV-UYh" secondAttribute="centerX" type="default" id="Xre-Am-6ga"/>
+                            <constraint firstItem="fro-pG-cHL" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="YTZ-0U-m69"/>
+                            <constraint firstAttribute="trailing" secondItem="ws9-1c-Js2" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="fvC-2u-bBB"/>
+                            <constraint firstItem="ujK-vQ-iqr" firstAttribute="top" secondItem="0Np-XV-UYh" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="qRu-74-X4B"/>
+                            <constraint firstItem="0Np-XV-UYh" firstAttribute="top" secondItem="ws9-1c-Js2" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="ykX-Pg-W6a"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="messageTable" destination="ujK-vQ-iqr" id="TPI-QW-5xQ"/>
+                        <outlet property="serverAddressField" destination="fro-pG-cHL" id="gcq-dy-ywu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="X6k-Gm-bNi">
-            <objects>
-                <viewController id="JAN-uW-dEL" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="hgZ-Zt-Q4r">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Hca-sf-77G" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="691" y="-2"/>
         </scene>
     </scenes>
     <classes>
@@ -76,7 +78,8 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/BNRViewController.h"/>
             <relationships>
                 <relationship kind="action" name="connect:"/>
-                <relationship kind="outlet" name="textField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="messageTable" candidateClass="UITableView"/>
+                <relationship kind="outlet" name="serverAddressField" candidateClass="UITextField"/>
             </relationships>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">

@@ -8,11 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BNRViewController : UIViewController <UITextFieldDelegate>
-@property (weak, nonatomic) IBOutlet UITableView *messageTable;
+@interface BNRViewController : UIViewController <UITableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UITextField *serverAddressField;
 
 - (IBAction)connect:(id)sender;
-
-@property (nonatomic, weak) IBOutlet UITextField *textField;
 
 @end

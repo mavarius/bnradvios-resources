@@ -2,17 +2,17 @@
 //  main.m
 //  SalesReport
 //
-//  Created by Aaron Hillegass on 1/5/12.
-//  Copyright (c) 2012 Big Nerd Ranch. All rights reserved.
+//  Created by Jonathan Blocksom on 4/1/13.
+//  Copyright (c) 2013 Jonathan Blocksom. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-#import "AppDelegate.h"
+#import "BNRAppDelegate.h"
 
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([BNRAppDelegate class]));
     }
 }

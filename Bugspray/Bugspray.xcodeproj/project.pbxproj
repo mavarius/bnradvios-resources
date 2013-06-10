@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6EE35B914CF4569007C8710 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EE35B814CF4569007C8710 /* UIKit.framework */; };
+		A6EE35BB14CF4569007C8710 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EE35BA14CF4569007C8710 /* Foundation.framework */; };
+		A6EE35BD14CF4569007C8710 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6EE35BC14CF4569007C8710 /* CoreGraphics.framework */; };
+		A6EE35C314CF4569007C8710 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6EE35C114CF4569007C8710 /* InfoPlist.strings */; };
+		A6EE35C514CF4569007C8710 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EE35C414CF4569007C8710 /* main.m */; };
+		A6EE35C914CF4569007C8710 /* BNRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EE35C814CF4569007C8710 /* BNRAppDelegate.m */; };
+		A6EE35CC14CF4569007C8710 /* BNRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EE35CB14CF4569007C8710 /* BNRViewController.m */; };
+		A6EE35CF14CF4569007C8710 /* BNRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6EE35CD14CF4569007C8710 /* BNRViewController.xib */; };
+		A6EE35E214D11837007C8710 /* lightbrigade.txt in Resources */ = {isa = PBXBuildFile; fileRef = A6EE35E114D11837007C8710 /* lightbrigade.txt */; };
+		CEFA87F71713293400D2B885 /* NSObject+DLIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFA87F61713293400D2B885 /* NSObject+DLIntrospection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6EE35B414CF4569007C8710 /* Bugspray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bugspray.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EE35B814CF4569007C8710 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A6EE35BA14CF4569007C8710 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A6EE35BC14CF4569007C8710 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A6EE35C014CF4569007C8710 /* Bugspray-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bugspray-Info.plist"; sourceTree = "<group>"; };
+		A6EE35C214CF4569007C8710 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A6EE35C414CF4569007C8710 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6EE35C614CF4569007C8710 /* Bugspray-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bugspray-Prefix.pch"; sourceTree = "<group>"; };
+		A6EE35C714CF4569007C8710 /* BNRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRAppDelegate.h; sourceTree = "<group>"; };
+		A6EE35C814CF4569007C8710 /* BNRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRAppDelegate.m; sourceTree = "<group>"; };
+		A6EE35CA14CF4569007C8710 /* BNRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRViewController.h; sourceTree = "<group>"; };
+		A6EE35CB14CF4569007C8710 /* BNRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRViewController.m; sourceTree = "<group>"; };
+		A6EE35CE14CF4569007C8710 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BNRViewController.xib; sourceTree = "<group>"; };
+		A6EE35E114D11837007C8710 /* lightbrigade.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lightbrigade.txt; sourceTree = "<group>"; };
+		CEFA87F51713293400D2B885 /* NSObject+DLIntrospection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DLIntrospection.h"; sourceTree = "<group>"; };
+		CEFA87F61713293400D2B885 /* NSObject+DLIntrospection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DLIntrospection.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6EE35B114CF4569007C8710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EE35B914CF4569007C8710 /* UIKit.framework in Frameworks */,
+				A6EE35BB14CF4569007C8710 /* Foundation.framework in Frameworks */,
+				A6EE35BD14CF4569007C8710 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6EE35A914CF4569007C8710 = {
+			isa = PBXGroup;
+			children = (
+				A6EE35BE14CF4569007C8710 /* Bugspray */,
+				A6EE35B714CF4569007C8710 /* Frameworks */,
+				A6EE35B514CF4569007C8710 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6EE35B514CF4569007C8710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6EE35B414CF4569007C8710 /* Bugspray.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6EE35B714CF4569007C8710 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6EE35B814CF4569007C8710 /* UIKit.framework */,
+				A6EE35BA14CF4569007C8710 /* Foundation.framework */,
+				A6EE35BC14CF4569007C8710 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6EE35BE14CF4569007C8710 /* Bugspray */ = {
+			isa = PBXGroup;
+			children = (
+				A6EE35C714CF4569007C8710 /* BNRAppDelegate.h */,
+				A6EE35C814CF4569007C8710 /* BNRAppDelegate.m */,
+				A6EE35CA14CF4569007C8710 /* BNRViewController.h */,
+				A6EE35CB14CF4569007C8710 /* BNRViewController.m */,
+				A6EE35CD14CF4569007C8710 /* BNRViewController.xib */,
+				CEFA87F51713293400D2B885 /* NSObject+DLIntrospection.h */,
+				CEFA87F61713293400D2B885 /* NSObject+DLIntrospection.m */,
+				A6EE35BF14CF4569007C8710 /* Supporting Files */,
+			);
+			path = Bugspray;
+			sourceTree = "<group>";
+		};
+		A6EE35BF14CF4569007C8710 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6EE35C014CF4569007C8710 /* Bugspray-Info.plist */,
+				A6EE35E114D11837007C8710 /* lightbrigade.txt */,
+				A6EE35C114CF4569007C8710 /* InfoPlist.strings */,
+				A6EE35C414CF4569007C8710 /* main.m */,
+				A6EE35C614CF4569007C8710 /* Bugspray-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6EE35B314CF4569007C8710 /* Bugspray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EE35D214CF4569007C8710 /* Build configuration list for PBXNativeTarget "Bugspray" */;
+			buildPhases = (
+				A6EE35B014CF4569007C8710 /* Sources */,
+				A6EE35B114CF4569007C8710 /* Frameworks */,
+				A6EE35B214CF4569007C8710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bugspray;
+			productName = Bugspray;
+			productReference = A6EE35B414CF4569007C8710 /* Bugspray.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6EE35AB14CF4569007C8710 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Big Nerd Ranch, Inc.";
+			};
+			buildConfigurationList = A6EE35AE14CF4569007C8710 /* Build configuration list for PBXProject "Bugspray" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6EE35A914CF4569007C8710;
+			productRefGroup = A6EE35B514CF4569007C8710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6EE35B314CF4569007C8710 /* Bugspray */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6EE35B214CF4569007C8710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EE35C314CF4569007C8710 /* InfoPlist.strings in Resources */,
+				A6EE35CF14CF4569007C8710 /* BNRViewController.xib in Resources */,
+				A6EE35E214D11837007C8710 /* lightbrigade.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6EE35B014CF4569007C8710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EE35C514CF4569007C8710 /* main.m in Sources */,
+				A6EE35C914CF4569007C8710 /* BNRAppDelegate.m in Sources */,
+				A6EE35CC14CF4569007C8710 /* BNRViewController.m in Sources */,
+				CEFA87F71713293400D2B885 /* NSObject+DLIntrospection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6EE35C114CF4569007C8710 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EE35C214CF4569007C8710 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A6EE35CD14CF4569007C8710 /* BNRViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EE35CE14CF4569007C8710 /* en */,
+			);
+			name = BNRViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6EE35D014CF4569007C8710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6EE35D114CF4569007C8710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6EE35D314CF4569007C8710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bugspray/Bugspray-Prefix.pch";
+				INFOPLIST_FILE = "Bugspray/Bugspray-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A6EE35D414CF4569007C8710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bugspray/Bugspray-Prefix.pch";
+				INFOPLIST_FILE = "Bugspray/Bugspray-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6EE35AE14CF4569007C8710 /* Build configuration list for PBXProject "Bugspray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EE35D014CF4569007C8710 /* Debug */,
+				A6EE35D114CF4569007C8710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EE35D214CF4569007C8710 /* Build configuration list for PBXNativeTarget "Bugspray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EE35D314CF4569007C8710 /* Debug */,
+				A6EE35D414CF4569007C8710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6EE35AB14CF4569007C8710 /* Project object */;
+}
